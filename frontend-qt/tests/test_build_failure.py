@@ -37,9 +37,11 @@ class BuildFailure(unittest.TestCase):
         cls.app = QApplication.instance() or QApplication([])
 
     def _window(self, height: int):
+        from nspb_qt.i18n import Lang
         from nspb_qt.model import Model
         from nspb_qt.ui import MainWindow
         m = Model()
+        m.lang = Lang.EN   # these assertions read English whatever the device language is
         w = MainWindow(m)
         w.resize(900, height)
         w.show()
