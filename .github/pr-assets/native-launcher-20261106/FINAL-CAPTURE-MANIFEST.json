@@ -1,0 +1,2067 @@
+{
+  "generated": "2026-11-06",
+  "provenance": {
+    "before_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+    "proposed_head": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d",
+    "proposed_dirty_diff_sha256": "5608fed52af8600cad311d6a642ef25e71804090b34a14e836c88b1e24cdbc5c",
+    "catalog_sha256": "d2002e458d9bc3f6d3f824d4ab51a7c016741bedf742c0ad7fa90c769b070ef7",
+    "main_production_files_verified_unchanged": [
+      "frontend-ios/Sources/ShellUI/ButtonTestView.swift",
+      "frontend-ios/Sources/ShellUI/ShellSettingsStore.swift",
+      "frontend-ios/Sources/ShellUI/TouchLayoutEditorModel.swift",
+      "frontend-ios/Sources/ShellUI/PortraitLibrary.swift",
+      "frontend-ios/Sources/ShellUI/TouchProbe.swift",
+      "frontend-ios/Sources/ShellUI/ShellSettingsView.swift",
+      "frontend-ios/Sources/ShellUI/TouchLayoutEditorView.swift",
+      "frontend-ios/Sources/ShellUI/GameDetailView.swift",
+      "frontend-ios/Sources/ShellUI/ChoicePicker.swift",
+      "frontend-ios/Sources/ShellUI/InputGate.swift",
+      "frontend-ios/Sources/ShellUI/PadMap.swift",
+      "frontend-ios/Sources/ShellUI/ShellFormat.swift",
+      "frontend-ios/Sources/ShellUI/TouchLayout.swift",
+      "frontend-ios/Sources/ShellUI/ShellArtwork.swift",
+      "frontend-ios/Sources/ShellUI/TouchPadGeometry.swift",
+      "frontend-ios/Sources/ShellUI/TouchControlsPreview.swift",
+      "frontend-ios/Sources/ShellUI/LibraryView.swift",
+      "frontend-ios/Sources/ShellUI/DeleteGameView.swift",
+      "frontend-ios/Sources/ShellUI/ControllersView.swift",
+      "frontend-ios/Sources/ShellUI/SideBar.swift",
+      "frontend-ios/Sources/ShellUI/CoverFlowView.swift",
+      "frontend-ios/Sources/ShellUI/ShellStyle.swift",
+      "frontend-ios/Sources/ShellUI/ShellInputs.swift",
+      "frontend-ios/Sources/ShellUI/TouchLayoutEditing.swift",
+      "frontend-ios/Sources/ShellUI/EdgeSwipeBack.swift",
+      "frontend-ios/Sources/ShellUI/GameStateView.swift",
+      "frontend-ios/Sources/ShellUI/ShellFocus.swift",
+      "frontend-ios/Sources/ShellUI/PadMappingView.swift",
+      "frontend-ios/Sources/ShellUI/Resources/Localizable.xcstrings",
+      "frontend-ios/Sources/ShellUI/Resources/Manrope-OFL.txt",
+      "frontend-ios/Sources/ShellUI/Resources/Manrope.ttf",
+      "frontend-ios/Sources/ShellHost/GamePadMapStore.swift",
+      "frontend-ios/Sources/ShellHost/HostText.swift",
+      "frontend-ios/Sources/ShellHost/BackupExclusion.swift",
+      "frontend-ios/Sources/ShellHost/GameSettingsStore.swift",
+      "frontend-ios/Sources/ShellHost/LauncherProfile.swift",
+      "frontend-ios/Sources/ShellHost/ShellHostModel.swift",
+      "frontend-ios/Sources/ShellHost/RomfsIdentity.swift",
+      "frontend-ios/Sources/ShellHost/GameDeletion.swift",
+      "frontend-ios/Sources/ShellHost/ShellHostView.swift",
+      "frontend-ios/Sources/ShellHost/LogReader.swift",
+      "frontend-ios/Sources/ShellHost/GameCatalogue.swift",
+      "frontend-ios/Sources/ShellHost/EngineLaunchPlan.swift",
+      "frontend-ios/Sources/ShellHost/GameLauncher.swift",
+      "frontend-ios/Sources/ShellHost/RomfsLanguages.swift",
+      "frontend-ios/Sources/ShellHost/ShaderResources.swift",
+      "frontend-ios/Sources/ShellHost/BookmarkStore.swift",
+      "frontend-ios/Sources/ShellHost/LibraryOrder.swift",
+      "frontend-ios/Sources/ShellHost/GameManifest.swift",
+      "frontend-ios/Sources/ShellHost/GameMods.swift",
+      "frontend-ios/Sources/ShellHost/FolderPicker.swift",
+      "frontend-ios/Sources/ShellHost/Resources/Localizable.xcstrings",
+      "frontend-ios/Sources/ShellControllers/GamepadAdapter.swift",
+      "frontend-ios/Sources/ShellControllers/PadMapping.swift"
+    ],
+    "test_only_adaptations": [
+      "Nintendo catalog reader and resources",
+      "Shared SampleData profiles and simulated controller fixture values",
+      "Force sample controllers with --samples",
+      "Review screenshot UI test"
+    ],
+    "captured_at": "2026-11-06",
+    "runtime": "iOS/iPadOS 27.2; Duo iOS 27.2.iPhone19.4",
+    "temporary_capture_test": "ReviewScreenshotTests.swift is archived beside this manifest and removed from the contribution checkout after capture.",
+    "reproduction_patch_sha256": "14b3decacf4d6a0dc199d9e17585c3bcf9ef564170719bf7521e7befb1fb16aa",
+    "reproduction_patch_note": "Includes the untracked Nintendo metadata resource as a new file, without local image binaries."
+  },
+  "notes": [
+    "All images are freshly captured for this review refresh.",
+    "Nintendo metadata/artwork is identical on both sides; game readiness, recency, versions and controller values are simulated.",
+    "Duo images are crops of original Device Hub window captures, preserving its rendered device model and pose.",
+    "Static simulator evidence does not establish physical-device behavior or animation quality."
+  ],
+  "images": [
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "01-outer-portrait-library",
+      "path": "images/review-20261106/duo/01-before/01-outer-portrait-library.png",
+      "width": 510,
+      "height": 689,
+      "sha256": "301a23ef854ab7cc7c7efb41f304b45e1121e22dddf320d4fe40c0f52380e4ce",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "49125728727459eb1efc4380d2d7a170272d13b7b46886697ee7d39489cde4fc",
+      "crop_bounds": [
+        687,
+        183,
+        1197,
+        872
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "01-outer-portrait-library",
+      "path": "images/review-20261106/duo/02-proposed-design/01-outer-portrait-library.png",
+      "width": 510,
+      "height": 689,
+      "sha256": "c42275c4ebdade48f22a488eca27b8071f47d5d7e2e22d14d51d05e406c56f4d",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "1d60b0e32f9ef8ea80b20ad966789e212d67340946897af7b0c7163ca2a26eb7",
+      "crop_bounds": [
+        687,
+        183,
+        1197,
+        872
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "02-outer-portrait-controllers",
+      "path": "images/review-20261106/duo/01-before/02-outer-portrait-controllers.png",
+      "width": 510,
+      "height": 689,
+      "sha256": "a35aef5c50491c23fa2c482a5376236fb7f21cb589079ef49496671ce7f8e1a3",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "add9046ac8815eea843f92c536bbba7a5980a897416037de2b76d78538518e70",
+      "crop_bounds": [
+        687,
+        183,
+        1197,
+        872
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "02-outer-portrait-controllers",
+      "path": "images/review-20261106/duo/02-proposed-design/02-outer-portrait-controllers.png",
+      "width": 510,
+      "height": 689,
+      "sha256": "80eefe8ed8662fedd57a5d7b200c3910c4bd536352883f13bc68d25c22475c39",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "f3037821242f79f5035aca5159996fb4d1f0e844d46f44a13c62fb9a1c44b834",
+      "crop_bounds": [
+        687,
+        183,
+        1197,
+        872
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "03-outer-portrait-game-settings",
+      "path": "images/review-20261106/duo/01-before/03-outer-portrait-game-settings.png",
+      "width": 510,
+      "height": 689,
+      "sha256": "aa22f5e3ac9c0ac99b1b3d456b5da7120fb8657960c6788cb294cdd4905a3b1c",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "78247f69613b0140748c4be59a24fc7be1ad4027da23de76a155a58f5622b75c",
+      "crop_bounds": [
+        687,
+        183,
+        1197,
+        872
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "03-outer-portrait-game-settings",
+      "path": "images/review-20261106/duo/02-proposed-design/03-outer-portrait-game-settings.png",
+      "width": 510,
+      "height": 689,
+      "sha256": "6f408131e04e0a9910e024325b3119e61fc0b895ac3d9ee41069c4e0e53ae929",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "49b203f623d2ea99b0d6e3977558549f142695d3b98a454a8bf771eb9bc5dc52",
+      "crop_bounds": [
+        687,
+        183,
+        1197,
+        872
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "04-outer-portrait-app-settings",
+      "path": "images/review-20261106/duo/01-before/04-outer-portrait-app-settings.png",
+      "width": 510,
+      "height": 689,
+      "sha256": "b42206ef9f3d780079118f03d75c5857bcc25789f7c6e4a0b189c74376de91f3",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "abbc6cfc30a70bb556ac6eb435e8376aef8fa8fd37e4368b1610727c8d6ccbfd",
+      "crop_bounds": [
+        687,
+        183,
+        1197,
+        872
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "04-outer-portrait-app-settings",
+      "path": "images/review-20261106/duo/02-proposed-design/04-outer-portrait-app-settings.png",
+      "width": 510,
+      "height": 689,
+      "sha256": "d2770636023fb33c712c5bee0b8c372f3402b202bc9245690417ebaa42fe9629",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "01b387f6215ac21387289009b862913520ed40df65f49a75cb3e2b22c515a3c9",
+      "crop_bounds": [
+        687,
+        183,
+        1197,
+        872
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "05-outer-portrait-missing-data",
+      "path": "images/review-20261106/duo/01-before/05-outer-portrait-missing-data.png",
+      "width": 510,
+      "height": 689,
+      "sha256": "9fffd90ba5eecac55dcd5d1a67317032047771ce1e1330c4c2f5225877fb0999",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "5845e195152f6ff536bde19a32a1d49b7e63c210ce615fcc619dab1f69f32fb8",
+      "crop_bounds": [
+        687,
+        183,
+        1197,
+        872
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "05-outer-portrait-missing-data",
+      "path": "images/review-20261106/duo/02-proposed-design/05-outer-portrait-missing-data.png",
+      "width": 510,
+      "height": 689,
+      "sha256": "1739b76909ca8b57d661887ec4495f6d74e6089edd3437d35cbd29f96f23cb0b",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "4fc599229670b1129deb00e722e380a93d4b76c0dca1592755043a2393e33e21",
+      "crop_bounds": [
+        687,
+        183,
+        1197,
+        872
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "06-inner-portrait-library",
+      "path": "images/review-20261106/duo/01-before/06-inner-portrait-library.png",
+      "width": 558,
+      "height": 761,
+      "sha256": "4d294f47614f599e32ef28ec499b08f9b3287072fb3f3dc636c9ae7e8e8e8c7b",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "feb431f7678efff693f128b442c6cd4b4eaf918e451f3a420f3bec40cc1cddde",
+      "crop_bounds": [
+        662,
+        150,
+        1220,
+        911
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "06-inner-portrait-library",
+      "path": "images/review-20261106/duo/02-proposed-design/06-inner-portrait-library.png",
+      "width": 558,
+      "height": 761,
+      "sha256": "9d1f27d7f0e528c58b344fcb440f3fac836c4e84d6204b3b3e2a5982748ffc98",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "52e08aceaf3d65847810f53bb2869e8f28f8c7d3e11e36ba5862e267251a5228",
+      "crop_bounds": [
+        662,
+        150,
+        1220,
+        911
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "07-tabletop-library",
+      "path": "images/review-20261106/duo/01-before/07-tabletop-library.png",
+      "width": 569,
+      "height": 729,
+      "sha256": "8cf9a525ae3d21c6d3e81191e25c164262c02281585db1c5f6801dc6b913cd8e",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "2454ab9a839f5b049f8f662b8db014724dfd85c9deff85cfddf682014b462db3",
+      "crop_bounds": [
+        656,
+        168,
+        1225,
+        897
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "07-tabletop-library",
+      "path": "images/review-20261106/duo/02-proposed-design/07-tabletop-library.png",
+      "width": 569,
+      "height": 729,
+      "sha256": "282484608ffb927392d7b754f62d30913920890a157579f78187328c9cb9564a",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "fd4a7bc9854d35f9d6250486f32365f0773a13556320bc8b4a387fe5ca22b894",
+      "crop_bounds": [
+        656,
+        168,
+        1225,
+        897
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "08-tabletop-game-settings",
+      "path": "images/review-20261106/duo/01-before/08-tabletop-game-settings.png",
+      "width": 569,
+      "height": 729,
+      "sha256": "abe01de2228dc437b2b74e9fdaa30a2ee8758efe1c1c320e4bf8a74ad75eeac5",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "7092dfe4aa6f0d511e9c28fce508cd2c9399af808128b711f0b6a5d8429c19f8",
+      "crop_bounds": [
+        656,
+        168,
+        1225,
+        897
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "08-tabletop-game-settings",
+      "path": "images/review-20261106/duo/02-proposed-design/08-tabletop-game-settings.png",
+      "width": 569,
+      "height": 729,
+      "sha256": "2b4b45481afcab3d86210af40ba8a55fffbf6f94f90a57493f847831a6115543",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "eb838402062cfae1741d5ed0bdefeca8f5794f824a8c3a29f6c4290b540bd267",
+      "crop_bounds": [
+        656,
+        168,
+        1225,
+        897
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "09-inner-landscape-coverflow",
+      "path": "images/review-20261106/duo/01-before/09-inner-landscape-coverflow.png",
+      "width": 942,
+      "height": 687,
+      "sha256": "a48b2a998ec44cc9db5809ee84da9e2aa3dac88b78df36553e37fe9016835d08",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "e116e3594cad683107e9ec3c3ca7304f94df5e66d858f6c341a0b92cf5eb7b5c",
+      "crop_bounds": [
+        470,
+        184,
+        1412,
+        871
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "09-inner-landscape-coverflow",
+      "path": "images/review-20261106/duo/02-proposed-design/09-inner-landscape-coverflow.png",
+      "width": 942,
+      "height": 687,
+      "sha256": "b943e42d9efd8958b4df1f8841b5bd5cec2b0e2c2e3623bfdbbfabfd73a71325",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "b4e10b951c99a510e79ede74f75595062b0d76f3c39abec9dcbe0804df67c30f",
+      "crop_bounds": [
+        470,
+        184,
+        1412,
+        871
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "10-partial-landscape-coverflow",
+      "path": "images/review-20261106/duo/01-before/10-partial-landscape-coverflow.png",
+      "width": 732,
+      "height": 568,
+      "sha256": "787225cadc00e8325a59e0f349ba7ce0f9875f2034a3d63a8d52996ec71d84f9",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "7187fa1fb451721d105c2a450fe0b43835b01260f62b856bd113ae4e8674abd2",
+      "crop_bounds": [
+        574,
+        246,
+        1306,
+        814
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "10-partial-landscape-coverflow",
+      "path": "images/review-20261106/duo/02-proposed-design/10-partial-landscape-coverflow.png",
+      "width": 732,
+      "height": 568,
+      "sha256": "44fbde28f28cc099868d17317f7275234767aad3521f4cb19ed77b39b66cd57f",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "f6e96a694cf934ac72f16969135dac23c841fdb01867e30749f3ff9f5dfa65aa",
+      "crop_bounds": [
+        574,
+        246,
+        1306,
+        814
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "11-outer-landscape-left",
+      "path": "images/review-20261106/duo/01-before/11-outer-landscape-left.png",
+      "width": 689,
+      "height": 510,
+      "sha256": "ed43f3e38838cd76303f4eb60731eb17fe0844e5d52b6399bcd37e6259aa2202",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "d3ba8662fc6ef399ea2d09be52cabe3c6b111bd4c4476f27e3bbe7c81b8e5a74",
+      "crop_bounds": [
+        597,
+        276,
+        1286,
+        786
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "11-outer-landscape-left",
+      "path": "images/review-20261106/duo/02-proposed-design/11-outer-landscape-left.png",
+      "width": 689,
+      "height": 510,
+      "sha256": "c6c7aac0cba5e398abf2a9ec05c2b6d7f7124119c479e9c029ea8a9bcadaf805",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "64da9e7f26fabbc7dbb502649d15c17f168722e000972256808a69ea49088923",
+      "crop_bounds": [
+        597,
+        276,
+        1286,
+        786
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "12-outer-landscape-right",
+      "path": "images/review-20261106/duo/01-before/12-outer-landscape-right.png",
+      "width": 689,
+      "height": 510,
+      "sha256": "c73434176cb32c23ece4a34830ae7b12c67367f1348e33d64c969ec219d9ed62",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "90e0bd966835603ef0795138e80f8af8d7a6aeb75320422ff1c5c04efc66f3ab",
+      "crop_bounds": [
+        594,
+        272,
+        1283,
+        782
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "12-outer-landscape-right",
+      "path": "images/review-20261106/duo/02-proposed-design/12-outer-landscape-right.png",
+      "width": 689,
+      "height": 510,
+      "sha256": "9fd44ccd734f75b99fa13ce2e1dded5d3195c0a9af55882e2fb46842b50fee32",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "4a0d543d53c7a5edcaa9e0b5f5ae09fe244d0e48bb5966cfe5f22893fe2fbe39",
+      "crop_bounds": [
+        594,
+        272,
+        1283,
+        782
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "13-tabletop-controllers",
+      "path": "images/review-20261106/duo/01-before/13-tabletop-controllers.png",
+      "width": 569,
+      "height": 729,
+      "sha256": "d207a5664eccd70c8a6d6a25de2dc91f7fb931725700e002c05f60f0a9dfc650",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "ffb960c7aac5861faf8bad386db91ab564e9ee276ecfb71cfb4a56cb6b948195",
+      "crop_bounds": [
+        656,
+        168,
+        1225,
+        897
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "13-tabletop-controllers",
+      "path": "images/review-20261106/duo/02-proposed-design/13-tabletop-controllers.png",
+      "width": 569,
+      "height": 729,
+      "sha256": "bd95d726299b0852053bbaf82813387b3d4328f902d63f644af84e139eda07ce",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "392618fc5ad2d2378e775c5780238db10f66c0eb499927583d3aa3384a7b2ff7",
+      "crop_bounds": [
+        656,
+        168,
+        1225,
+        897
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "14-partial-landscape-game-settings",
+      "path": "images/review-20261106/duo/01-before/14-partial-landscape-game-settings.png",
+      "width": 732,
+      "height": 568,
+      "sha256": "97189c60a5a613a2bdf35ffdac24476643c79a6d049dfbacc888d0e2145a840b",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "c55ac553655ba4d869cbb7b1e9d50043dfebface35f1766d779f332e79b1dfc1",
+      "crop_bounds": [
+        574,
+        246,
+        1306,
+        814
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "14-partial-landscape-game-settings",
+      "path": "images/review-20261106/duo/02-proposed-design/14-partial-landscape-game-settings.png",
+      "width": 732,
+      "height": 568,
+      "sha256": "dbda5981e775aadb9bd4bc57bc18766d93848765daf76108084294321845a920",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "28cf84b3972529a926500899cd61e0467754133ca6c4c7643499bf5d7a811379",
+      "crop_bounds": [
+        574,
+        246,
+        1306,
+        814
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "15-partial-landscape-app-settings",
+      "path": "images/review-20261106/duo/01-before/15-partial-landscape-app-settings.png",
+      "width": 732,
+      "height": 568,
+      "sha256": "71a5e61cd3a6f5d69dbf9e260cd0c19f34693155778d24783f785a5a7dc0f1a5",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "b3f8e894b82278534d308f8ef268389d3bcbbdbceea7af17be78d45751239ded",
+      "crop_bounds": [
+        574,
+        246,
+        1306,
+        814
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "15-partial-landscape-app-settings",
+      "path": "images/review-20261106/duo/02-proposed-design/15-partial-landscape-app-settings.png",
+      "width": 732,
+      "height": 568,
+      "sha256": "0df2bbc5f7493bc98c2d53fc88adc0d1fa2a857db96def0b782aa7f6222d6c60",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "7893c1b925bd7432c1942891bfbc32a83e213485b3f09e06d5d094e187716442",
+      "crop_bounds": [
+        574,
+        246,
+        1306,
+        814
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "16-partial-landscape-controllers",
+      "path": "images/review-20261106/duo/01-before/16-partial-landscape-controllers.png",
+      "width": 732,
+      "height": 568,
+      "sha256": "dd3158ac937c361e9cca792a85ee5993e7c91b6fff4ab7da14a4a239f8cc2848",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "702f6f22d99ee9ab4d2f327d2c05ad9de2aded4a6c03dbb7f7c72c432c7133b1",
+      "crop_bounds": [
+        574,
+        246,
+        1306,
+        814
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "16-partial-landscape-controllers",
+      "path": "images/review-20261106/duo/02-proposed-design/16-partial-landscape-controllers.png",
+      "width": 732,
+      "height": 568,
+      "sha256": "58936dfcb7580e1c471ebd5a754e0c6a651ec340ab181e68d4a475ca5fe41f77",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "91adebcbc6969ae8830d60fda12a1b5fb2b82a4d795559208596a4e528a5ffcf",
+      "crop_bounds": [
+        574,
+        246,
+        1306,
+        814
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "01-before",
+      "screen": "17-tabletop-app-settings",
+      "path": "images/review-20261106/duo/01-before/17-tabletop-app-settings.png",
+      "width": 569,
+      "height": 729,
+      "sha256": "b557893ff44ccd2bbccf46266f95f5274cb4c6ad788d87ee9782fb11f21b9080",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8",
+      "raw_sha256": "263273d0e7af518524285754eb9f317e619001434c3c50a53790a0b86ac81e99",
+      "crop_bounds": [
+        656,
+        168,
+        1225,
+        897
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "duo",
+      "side": "02-proposed-design",
+      "screen": "17-tabletop-app-settings",
+      "path": "images/review-20261106/duo/02-proposed-design/17-tabletop-app-settings.png",
+      "width": 569,
+      "height": 729,
+      "sha256": "e5833b17e98e569642e31242be24ff620c5c00540c80d80e2e1c5850e830b5fa",
+      "capture_method": "Device Hub window capture, whitespace crop only",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes",
+      "raw_sha256": "6da386d63fb0087d9213715f35f113260703101655243cd1862af12eca7bd858",
+      "crop_bounds": [
+        656,
+        168,
+        1225,
+        897
+      ],
+      "raw_dimensions": [
+        3840,
+        2100
+      ],
+      "operation": "Crop only, no resizing, rotation or UI/image edits"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "01-library-portrait",
+      "path": "images/review-20261106/iphone17pro/01-before/01-library-portrait.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "826f90653ad8b230fb710b2a145c1802fe88a07615bf2a0aa540e2e7430eaf85",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "01-library-portrait",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/01-library-portrait.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "de18cf69ea08217cd4e961d99713894da5eaa91556ddba2de6202487703edeff",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "02-controllers",
+      "path": "images/review-20261106/iphone17pro/01-before/02-controllers.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "d939f804ebbf992dd2864632c9d9c041f248f5e6888e9f5c800b9d09a7495bae",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "02-controllers",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/02-controllers.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "2bb43aaa2fbd8de98a310a62272b3b39b36d816e6e86f4626c49dfdb2cbe3556",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "03-game-settings-top",
+      "path": "images/review-20261106/iphone17pro/01-before/03-game-settings-top.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "bf48aa43ce08f1fd0edccd41a8e7062662a94f5d1f3c75edc22354dd719a6519",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "03-game-settings-top",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/03-game-settings-top.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "dfc080cebf7b540159185994af7d702262a9fcbeb1be7cdfa319c2bf8192d581",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "03b-game-settings-middle",
+      "path": "images/review-20261106/iphone17pro/01-before/03b-game-settings-middle.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "26a3b831ce93137da79e52f7445e483060566fa2023bd46670afd01cbfe23178",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "03b-game-settings-middle",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/03b-game-settings-middle.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "98603d13f16d1e4df3294bf7ced9af3367936c30824babf1ac732cfa0533d975",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "03c-game-settings-bottom",
+      "path": "images/review-20261106/iphone17pro/01-before/03c-game-settings-bottom.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "74c49c249de467ad2537eff926b823d2ed27479c8bbbec537593c56fdb14cafe",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "03c-game-settings-bottom",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/03c-game-settings-bottom.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "a104d47196f4a5c7be16fa0c4b2e4980e2c4b0d362c15587abba995a5279ef67",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "04-app-settings",
+      "path": "images/review-20261106/iphone17pro/01-before/04-app-settings.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "815f12b0a05e2305ccab149ce831d0b40916203a1859c92fe7823811e91b4d2d",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "04-app-settings",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/04-app-settings.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "d45f4de17d3510ad15c6fd1e845c36b9740a38276b8f3edd8003a4d6b68c4466",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "04b-touch-controls-settings",
+      "path": "images/review-20261106/iphone17pro/01-before/04b-touch-controls-settings.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "8ac3539a54df9e757e9cb1703c1eb6d3b66ce89721df929a68c5cf277f5759c1",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "04b-touch-controls-settings",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/04b-touch-controls-settings.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "7fe44634cf5093670bd696f211af2a0b9796a612642121db2f743f2f36f9faf4",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "05-missing-data",
+      "path": "images/review-20261106/iphone17pro/01-before/05-missing-data.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "f0d059ea648c30d6c1fdef701a0f45e3da8a10d12aa18b13f8d0b9fc4fd18268",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "05-missing-data",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/05-missing-data.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "75b28603b77c7d51cc0934bc953754d351b94fc8dba3e44f9cc3464ce7852158",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "06-update-required",
+      "path": "images/review-20261106/iphone17pro/01-before/06-update-required.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "ef129675724cd5ba3bc6ce011423b4b8095288ccac6b330c5de97f1d25a10c61",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "06-update-required",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/06-update-required.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "28629170ed703fda296d4db1017d95c422bf540f70fc31ab9158bf34194b3b10",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "07-fix-game-files",
+      "path": "images/review-20261106/iphone17pro/01-before/07-fix-game-files.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "33c935f9225773a96da901fcc82ef4c1e0b8ef61669c785903cfb574b00c18f9",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "07-fix-game-files",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/07-fix-game-files.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "e016f3a96927526c075647ff6ea4bd87222af203b7a4d515f7f50c399c77e209",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "08-button-mapping",
+      "path": "images/review-20261106/iphone17pro/01-before/08-button-mapping.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "5fbe1e19645ba05514a6150571a791cb82f1402fd4819e94eb237e2b91504f75",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "08-button-mapping",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/08-button-mapping.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "87a46542606b61e9bad84b6817b5ac2c3a95225fdf5aaab6754fb086a5c24d91",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "08b-button-mapping-choice",
+      "path": "images/review-20261106/iphone17pro/01-before/08b-button-mapping-choice.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "d5407b23a45ff2763c5e4e041b09413da0cba44a039e8e4fd2e96ef562ceeab0",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "08b-button-mapping-choice",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/08b-button-mapping-choice.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "04e770e781bd6df38c68190177e5dc0b83c029c5495693c2fb43cb45a7ab0665",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "09-button-test",
+      "path": "images/review-20261106/iphone17pro/01-before/09-button-test.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "4925b7907015eaa8be3ab02af36da51c682fe81c416f8670ce64c4fb343823ec",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "09-button-test",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/09-button-test.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "9ad889ede0516321ea5ee17b30051e6a756979ad1f6a6d8f98a620c06abd9dfa",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "10-library-landscape",
+      "path": "images/review-20261106/iphone17pro/01-before/10-library-landscape.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "b4e6665ac12a68c759fe07e619de5d1d5ab6239d2cb6cbedb485d85a4d4b84ba",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "10-library-landscape",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/10-library-landscape.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "3ec3194425fd78c983349686d8cdfe6354e09364fb7743773b739321c38a6ca3",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "11-game-settings-landscape",
+      "path": "images/review-20261106/iphone17pro/01-before/11-game-settings-landscape.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "fb9609748319802230846513dac80ca5bb59cd27be487af540e2cf5362480fff",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "11-game-settings-landscape",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/11-game-settings-landscape.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "259eb2015a24f359618e50051e07aff9c68f4515cf289fc0bea845dabac357e9",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "12-button-mapping-landscape",
+      "path": "images/review-20261106/iphone17pro/01-before/12-button-mapping-landscape.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "72d36e8604b601ef44ac148b5be6891af477a1b75f1e9868a0856359aacb8fd0",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "12-button-mapping-landscape",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/12-button-mapping-landscape.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "4d57ee8defa061d0c17d66e72935147e787fdf824212b4c1ce6d10603fba7dc7",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "13-touch-editor-landscape",
+      "path": "images/review-20261106/iphone17pro/01-before/13-touch-editor-landscape.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "f04ffeee250930d388808cf3e2f975417a3d722f19b2818f62ce148782b5795a",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "13-touch-editor-landscape",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/13-touch-editor-landscape.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "d1f718b1d7936d0790af50ef626fb46e161b3aaf43106b8d52253d7b60334280",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "14-touch-editor-options",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/14-touch-editor-options.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "0b2d4dcdb87e513869b39bae6069dbfa49047b1f3e521df1c330756035861477",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "15-app-settings-de",
+      "path": "images/review-20261106/iphone17pro/01-before/15-app-settings-de.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "ac8db4c3e9597d073867956491cafdf25aee4951f8e791d6a9492f4d14dd6b3f",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "15-app-settings-de",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/15-app-settings-de.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "a8ef170f346ff4cabbb2267014a1af6b932e2d17f8f9ea73e94033b4215582ec",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "15-app-settings-fr",
+      "path": "images/review-20261106/iphone17pro/01-before/15-app-settings-fr.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "4180279a90619dd44bd56b216b6c304406d20e9bdbc4f7a9032854118b482c46",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "15-app-settings-fr",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/15-app-settings-fr.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "a8db98666efc0b1702d0a4b410c1675e721e5ca5bce7cf2d5e1c0f2a09d8e69b",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "15-app-settings-it",
+      "path": "images/review-20261106/iphone17pro/01-before/15-app-settings-it.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "f0f840ece98fa43de1bb08ca66704ead4de0ad4476d396d1eb631ca96152046a",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "15-app-settings-it",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/15-app-settings-it.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "3970758a7511be3a60ffb510dd2864d931933f8c51f76c44f8b75ec551d1707d",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "15-app-settings-sv",
+      "path": "images/review-20261106/iphone17pro/01-before/15-app-settings-sv.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "46e191ca377a4bf6f264a4076a20fe40b9947f25784815280ab39917195cf2be",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "15-app-settings-sv",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/15-app-settings-sv.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "31f1ffe8a750786c89f49dd8b2119b8b56ad0c2d78cc659d4369d0f32919bec5",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "15-app-settings-zh-Hans",
+      "path": "images/review-20261106/iphone17pro/01-before/15-app-settings-zh-Hans.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "1e52534c604b718ec0413b8dbbe65e7738cfbc476f73ba5cb2c99ef7958255a3",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "15-app-settings-zh-Hans",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/15-app-settings-zh-Hans.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "3cade5d41c875f1168003c57330830e515e11ae311666893d00c8505996ac47d",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "01-before",
+      "screen": "16-thumbnail-context-menu",
+      "path": "images/review-20261106/iphone17pro/01-before/16-thumbnail-context-menu.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "b6d0c5710a96769d20b1672ff199ff6d279e927e214eae2b8cef3d62392ec33f",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "iphone17pro",
+      "side": "02-proposed-design",
+      "screen": "16-thumbnail-context-menu",
+      "path": "images/review-20261106/iphone17pro/02-proposed-design/16-thumbnail-context-menu.png",
+      "width": 1206,
+      "height": 2622,
+      "sha256": "e768c052c03aadd1de9f61f885ccc747cfb2eadf9cb2e07156d221214ccf0022",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "01-library-portrait",
+      "path": "images/review-20261106/ipadpro11/01-before/01-library-portrait.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "4e39381dd2599429b1daff7f10198a7866d9d87794162965df691eda8e675fde",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "01-library-portrait",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/01-library-portrait.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "5c845f7dd27e1291797a3db476317d35445bb8a476a02fd9b4623baab74c92e4",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "02-controllers",
+      "path": "images/review-20261106/ipadpro11/01-before/02-controllers.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "a3af532b0346c30f9f27a9c8466350ddd9758b5372285675b9a85dfac2029379",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "02-controllers",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/02-controllers.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "202d5d8a542132e98b1f9d51c9f11d1f30e931e7e0aad490ad8756316d0f7396",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "03-game-settings-top",
+      "path": "images/review-20261106/ipadpro11/01-before/03-game-settings-top.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "bb6a48726334a58a14902e1123c877455e1a2929fce4c54691da493237f77aab",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "03-game-settings-top",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/03-game-settings-top.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "a872474ecba2293f3a109356c15ea2ff088ef809a9c25e9799f7475a1c950db0",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "03b-game-settings-middle",
+      "path": "images/review-20261106/ipadpro11/01-before/03b-game-settings-middle.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "578a1b32346db280ed7e1e1f5edd4d39c9e21672ee0e232037a88adab15719d8",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "03b-game-settings-middle",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/03b-game-settings-middle.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "8d9e65ae60fc9cea059ee3acf6d3e2ecfa4d2c7289ae20203d3ed03a5e9d7b19",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "03c-game-settings-bottom",
+      "path": "images/review-20261106/ipadpro11/01-before/03c-game-settings-bottom.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "6b94b00a00b466f402ba3aa0a8e6d55d3300a2a1bddc2374f7c873440dc00aca",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "03c-game-settings-bottom",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/03c-game-settings-bottom.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "2322c98e19f9fc8c3634af7738a4a84ba7232248953dd8e64d0ccaf614d9bf90",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "04-app-settings",
+      "path": "images/review-20261106/ipadpro11/01-before/04-app-settings.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "721af2814f03921a3139a8d2e051b78abd02926b20482c8cbd275dd5fd4d6c86",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "04-app-settings",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/04-app-settings.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "03557e963d898b4776a3de9a1c014ae3e1e5e6aac3671ff09e80c0760d708e1f",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "05-missing-data",
+      "path": "images/review-20261106/ipadpro11/01-before/05-missing-data.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "4529a718f8ce554f2ce4fe16805eb03a68133217f3f1f56364aacd749d0181d6",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "05-missing-data",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/05-missing-data.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "517f8a24b9da111c83b3baf39fefbe0904495f3953ef4aaec3cd4428b3edc316",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "06-update-required",
+      "path": "images/review-20261106/ipadpro11/01-before/06-update-required.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "04b22399254418341d220aa9a46ff44e9c86c1506bd19c189b53238414f86718",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "06-update-required",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/06-update-required.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "4885bae4375699bbc16231f17cd5975478ee3abffd248091abe36529fd4452d5",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "07-fix-game-files",
+      "path": "images/review-20261106/ipadpro11/01-before/07-fix-game-files.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "7a335b05a429deecad0f4d7e7fee0fd7a14da72128d829b12e8b97637570ecc7",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "07-fix-game-files",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/07-fix-game-files.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "2a812b97746533be986ba3b3be81db3eb3eec0e283e47c280ce553b30ce75cb1",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "08-button-mapping",
+      "path": "images/review-20261106/ipadpro11/01-before/08-button-mapping.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "e688f9d361361ecfdc993aa713db1b8dc00839822c9ac998cfb7392893727391",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "08-button-mapping",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/08-button-mapping.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "cf51eeabc208db9c614d25422e63102c9b8b92574fd4d20056d13b810db7cc87",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "09-button-test",
+      "path": "images/review-20261106/ipadpro11/01-before/09-button-test.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "1964bbde1dc76a5ea0e9117adfc519ab32c704f5be76b91862bf3f780862dcfb",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "09-button-test",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/09-button-test.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "190d3f23a420dcfe252542b97c9df9ed2e67d784ce4595031424b2be707164a6",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "10-library-landscape",
+      "path": "images/review-20261106/ipadpro11/01-before/10-library-landscape.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "61d9a0c11b15f0e68ebf60186223b2c312071559d7ed5c48dcc9211f46014ff8",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "10-library-landscape",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/10-library-landscape.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "efaadae4e5d93195cfcd326663d65bc8447af9d4c37f5f8235f380a5ea33faf6",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "11-game-settings-landscape",
+      "path": "images/review-20261106/ipadpro11/01-before/11-game-settings-landscape.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "c80bc2e68aa9b1f84c04e39f00c5239624fecabb9cf2a350eee0838490bf7f5a",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "11-game-settings-landscape",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/11-game-settings-landscape.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "00edac17bf141d5ebea75c313200ae46235b4aa7d2a6151303109d81ae6b5e85",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "12-button-mapping-landscape",
+      "path": "images/review-20261106/ipadpro11/01-before/12-button-mapping-landscape.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "4c59aab65d55c97abe002f86d4eedb8df461c4459c934bd07793336f4eae44ad",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "12-button-mapping-landscape",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/12-button-mapping-landscape.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "73b4888d968b864d18808b50fdf962704e17c0ed4e8354eda9cf8095e0f43bcc",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "01-before",
+      "screen": "13-touch-editor-landscape",
+      "path": "images/review-20261106/ipadpro11/01-before/13-touch-editor-landscape.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "44b4c8e901bedaba9a3b5ed827a37ddc3be4d3ed3b1392a9c8e614516cb42c59",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "13-touch-editor-landscape",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/13-touch-editor-landscape.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "471b5f74421b738ddb6b4d7b88948bb108a1032b6afb7d5551da88e9681ca2db",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadpro11",
+      "side": "02-proposed-design",
+      "screen": "14-touch-editor-options",
+      "path": "images/review-20261106/ipadpro11/02-proposed-design/14-touch-editor-options.png",
+      "width": 1668,
+      "height": 2420,
+      "sha256": "c3956c48498491b1d89ca61b6cc5e2d12ea1e5251da4933e58514a636313520b",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "01-library-portrait",
+      "path": "images/review-20261106/ipadmini/01-before/01-library-portrait.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "ba37920a4a2361e8fc394fca43e157b1736a719abe9cf1a9c8198abf2a824c6e",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "01-library-portrait",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/01-library-portrait.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "f6827effa21da4de0c557336698b27762e485c8c0cdc859744794c9c1b03d566",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "02-controllers",
+      "path": "images/review-20261106/ipadmini/01-before/02-controllers.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "2f381b3bed12d6a23841b7f62316b5965ffc702ba2c921c98385f20243650816",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "02-controllers",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/02-controllers.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "292578f09d4e9ab9023ecfef02facb1a9229a4433ec98468458694732d227309",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "03-game-settings-top",
+      "path": "images/review-20261106/ipadmini/01-before/03-game-settings-top.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "580fc2d78844be5b799e0c8dad2e371c63b1a94dd343cd1749e306b97392e729",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "03-game-settings-top",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/03-game-settings-top.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "1e402be11e98f4465ecd908aad708b541496d4653a69b13b18b776dedff33b40",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "03b-game-settings-middle",
+      "path": "images/review-20261106/ipadmini/01-before/03b-game-settings-middle.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "4c233d2b2df6ff8825e6c6cb97d7a48ed218109ca34aecf9402a2a3a6f078fcd",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "03b-game-settings-middle",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/03b-game-settings-middle.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "033502e8672c72e6823693ec83f671c6282e7c265d8e9d5059e42e805dde8233",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "03c-game-settings-bottom",
+      "path": "images/review-20261106/ipadmini/01-before/03c-game-settings-bottom.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "2acef4fb825098c046b02c8df9256bd81dbf9a8ae0d01d73573910a1ea28b733",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "03c-game-settings-bottom",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/03c-game-settings-bottom.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "ef8d4b4dc425b641d2b9b6cd8b69b1aeeb2d324b18be1f9645f7a2bd3dd1dc57",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "04-app-settings",
+      "path": "images/review-20261106/ipadmini/01-before/04-app-settings.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "226f6b43d5485c5d9466a8fad3c2180fed90c71e720affe6d2f4d9a3688cbf1d",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "04-app-settings",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/04-app-settings.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "f73ad63a0c605288bf7a5459529b23dea441de58349577bf08459c76264fbaed",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "05-missing-data",
+      "path": "images/review-20261106/ipadmini/01-before/05-missing-data.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "044b4be344f077bf52d99ff71a3eec53143990fc87223ea63853db06539f6b24",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "05-missing-data",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/05-missing-data.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "41ab42e956d6ea57b981028cbf90f4f88fc40c57aed48d12c8c9f41193460384",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "06-update-required",
+      "path": "images/review-20261106/ipadmini/01-before/06-update-required.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "35482903fce75682611a2929f4d02c100b3409da10c9b77cc4c889b67cfdf942",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "06-update-required",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/06-update-required.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "7d6b8261da91b5684f0538572a3278f0ad9a5bd4182af727c1928835b880a2d4",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "07-fix-game-files",
+      "path": "images/review-20261106/ipadmini/01-before/07-fix-game-files.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "00ed21016295cf62f8a17e1aad55786f92bd4ccfc86161638653a9d1cf3c4eac",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "07-fix-game-files",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/07-fix-game-files.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "af10d229feb91350e8f8703df717f063100823a19a5ad97da5837398d403dcd4",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "08-button-mapping",
+      "path": "images/review-20261106/ipadmini/01-before/08-button-mapping.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "8c1caac015edef0211633a3e505ea158347b2685b05165e89a1ec19889e9184d",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "08-button-mapping",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/08-button-mapping.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "7a900f4bf99793f1032cfa365e60689de73b27eb7222252a645e0224cd65bc57",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "09-button-test",
+      "path": "images/review-20261106/ipadmini/01-before/09-button-test.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "2b6312511f3eb88f5ffd17140ecb106b52373dee1d0a7156f5e0f4eafd952440",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "09-button-test",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/09-button-test.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "344cd30fc1daf0308345a5c61e8cc7f7ba79ecc0f3ee77c7bbf1ac135eded7bf",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "10-library-landscape",
+      "path": "images/review-20261106/ipadmini/01-before/10-library-landscape.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "901175049627dba4ede2b8fc8a2adf17e1457361af0d275d04c6e7139a4ae0c8",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "10-library-landscape",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/10-library-landscape.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "a83168381f2a11d2a95a03e001aaa77084cc42ce7bb6c9bb84a78acbf9089d19",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "11-game-settings-landscape",
+      "path": "images/review-20261106/ipadmini/01-before/11-game-settings-landscape.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "dd02c5ecd82546dcd6c58afcbe5636f3524b3eceba148f1a4a17a42bed6e8a2d",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "11-game-settings-landscape",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/11-game-settings-landscape.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "27dd9721f22ab79e7b9071650acc4af35e20b78d3daa97068eb0aa4ed445f9af",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "12-button-mapping-landscape",
+      "path": "images/review-20261106/ipadmini/01-before/12-button-mapping-landscape.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "42cb499568af590991a8d5ebd8a50e60ee19b4f279d482a41d518cae3e9e1779",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "12-button-mapping-landscape",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/12-button-mapping-landscape.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "99601c03fad69dfb7ee526a638e239a2f1466e8d23267e28e8c65d78dfe34166",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "01-before",
+      "screen": "13-touch-editor-landscape",
+      "path": "images/review-20261106/ipadmini/01-before/13-touch-editor-landscape.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "2eca38a6261b6fe89f7d1b6f14b55d7b81278f6a3c927339c88e11883536f4b7",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "0af7a9f5de5273c5f33e69268559d42c3e7067e8"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "13-touch-editor-landscape",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/13-touch-editor-landscape.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "19737f8833e32942b53070f262b44f0a9fcaa6b523d3226893851a503734da1e",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    },
+    {
+      "device": "ipadmini",
+      "side": "02-proposed-design",
+      "screen": "14-touch-editor-options",
+      "path": "images/review-20261106/ipadmini/02-proposed-design/14-touch-editor-options.png",
+      "width": 1512,
+      "height": 2316,
+      "sha256": "d7d951399dcf7f8497666da197509bfff80726a0b5d95a9f355e8df08ae87f7a",
+      "capture_method": "XCUITest XCUIScreen screenshot",
+      "source_revision": "533d247981cb4f4b810552a4c9abb71fdd5a7b9d + local changes"
+    }
+  ],
+  "image_count": 143,
+  "paired_screens": 70
+}
