@@ -48,7 +48,7 @@ Existing grouping, boundary, overlap, and protected-menu checks remain. Save ret
 
 ## Screenshots
 
-Fresh comparisons captured on November 6, 2026. **Before** is current main `0af7a9f5`, with only screenshot-demo fixtures adapted. All 54 production source files in its iOS UI, host, and controller targets were verified unchanged. **Proposed design** is this branch at `533d2479` plus the local review changes. Main has no additional `frontend-ios` changes between the already integrated `9da53b33` and this baseline.
+Fresh comparisons captured on November 6, 2026. **Before** is current main `0af7a9f5`, with only screenshot-demo fixtures adapted. All 54 production source files in its iOS UI, host, and controller targets were verified unchanged. **Proposed design** is this branch at `533d2479` plus the local review changes. Publication commit `01999ca0` also integrates main `0af7a9f5`; its iOS UI, host, and controller sources are identical to the approved review commit `4ab3855e`. Main has no additional `frontend-ios` changes between the already integrated `9da53b33` and this baseline.
 
 Both sides use the same nine-title Nintendo catalog and official cover/icon assets, with simulated game states. iPhone and iPad images are direct simulator screenshots. Duo images retain the actual Device Hub model and pose, cropped only around surrounding whitespace. Raw window captures and source/image hashes are recorded in the local screenshot manifest. These images replace the earlier mixed-revision comparison set.
 
@@ -599,12 +599,12 @@ Both screenshot-demo builds compile with the current installed SDK. Matching por
 
 The prior code-validation pass passed the iOS package tests, including 63 ShellUI and 168 ShellHost Swift Testing cases. This refresh changes only screenshot fixtures/harnesses and local review artifacts. No gameplay launch, game data, or saved controls are modified by the capture process.
 
-The branch retains the local main integration and renumbers the Duo outer-landscape custom-placement companion to patch **0084**. Built-in safe-area defaults, collision checks, and the protected menu area remain unchanged; expanded custom bounds require rebuilt games. Patch **0085** carries the separately requested TV/controller gear fix from #818. Static demo screenshots cannot validate either engine change. No Mac launcher redesign or data migration is included.
+The branch retains the local main integration and renumbers the Duo outer-landscape custom-placement companion to patch **0085**. Built-in safe-area defaults, collision checks, and the protected menu area remain unchanged; expanded custom bounds require rebuilt games. Patch **0086** carries the separately requested TV/controller gear fix from #818. Static demo screenshots cannot validate either engine change. No Mac launcher redesign or data migration is included.
 
 ## Scope
 
 - [x] Engine changes are carried as patches with their Upstream-Status rather than adding engine source files.
-- [ ] Patch 0084 is still pending an upstream PR. Patch 0085 is forwarded to seedds/nxnative#1485.
+- [ ] Patch 0085 is still pending an upstream PR. Patch 0086 is forwarded to seedds/nxnative#1485.
 - [x] Fresh English before/after screenshots cover the launcher surfaces above, with matching Nintendo fixtures and device poses.
 - [ ] All changed views have translated before/after coverage. Six-language App Settings comparisons are included; other translated views were not recaptured in this pass.
 - [x] No keys, game files, or data extracted from games are included in code or attachments.

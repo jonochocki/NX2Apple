@@ -2063,5 +2063,7 @@
     }
   ],
   "image_count": 143,
-  "paired_screens": 70
+  "paired_screens": 70,
+  "publication_head": "01999ca02c023189acfd5d5e9f910658ab055808",
+  "publication_note": "The publication merge adds main 0af7a9f5, locale ordering/cognate test corrections, and an optional-artwork folder marker. ShellUI, ShellHost, and ShellControllers sources are identical to approved review commit 4ab3855e. Engine companions were renumbered 0085/0086. Image captures and hashes are unchanged."
 }
